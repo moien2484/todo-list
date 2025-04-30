@@ -1,0 +1,125 @@
+/* #root {
+  width: 100%;
+} */
+*,
+body {
+  box-sizing: border-box;
+  font-family: sahel;
+  direction: rtl;
+}
+@font-face {
+  font-family: sahel;
+  src: url("fonts/Sahel.ttf") format("ttf");
+}
+@media screen and (max-width: 767px) {
+  .custom-toggle {
+    margin-top: 15px;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+li,
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(/img/back\ ground.jpg);
+}
+.main-form {
+  background-image: linear-gradient(#b2c8f3, #f5a6bf);
+  width: 100%;
+  height: 500px;
+  border-radius: 20px;
+  padding: 70px 0px;
+}
+.color-red {
+  color: #e72c66 !important;
+}
+.color-green {
+  cursor: pointer;
+  color: #89dbb1;
+  font-weight: bolder;
+  transition-property: all;
+  transition-duration: 0.5s;
+  position: absolute;
+  font-size: 20px;
+}
+.color-red {
+  color: #e72c66 !important;
+}
+.color-delet {
+  color: #e15461;
+}
+.parent-list {
+  width: 100%;
+}
+.btn-form {
+  cursor: pointer;
+  padding: 2px 10px;
+  border: 1px solid #e72c66;
+  color: #fff;
+  background-color: #e15461;
+  transition-property: all;
+  transition-duration: 0.3s;
+}
+.btn-form:hover {
+  border: 1px solid #fff;
+}
+form input {
+  border: 1px solid #e72c66;
+}
+form input:focus-visible {
+  outline: #e15461;
+  border: #e15461;
+  box-shadow: 1px 1px 3px 1px #e15461;
+}
+.parent-form {
+  width: 350px;
+  margin-right: auto;
+  margin-left: auto;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+.cheched-tick {
+  background-color: #209358;
+  border-radius: 100%;
+  padding: 1px;
+  color: #fff;
+}
+.checked-filter {
+  filter: blur(1px);
+  transition-property: all;
+  transition-duration: 0.4s;
+}
+.list-group-item-first {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+}
+.list-group-item-first i {
+  font-size: 22px;
+}
+.completed {
+  color: #ffaeba;
+  text-decoration: line-through;
+}
+.checkdone{
+  background-color: #209358;
+  color: #fff;
+  border-radius: 50%;
+}
+/* @media screen and (max-width: 575.98px) {
+  .parent-form {
+      width: 215px !important;
+  }
+  .parent-form input {
+      width: 140px;
+  }
+} */
