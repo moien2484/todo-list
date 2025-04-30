@@ -1,54 +1,62 @@
 # React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h1 align="center">📝 Todo List App</h1>
+<p align="center">
+  A Minimal & Elegant Task Manager  
+  <br/>
+  Built with <strong>React</strong>, <strong>TypeScript</strong>, and <strong>Bootstrap</strong>
+</p>
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧠 About The Project
 
-## Expanding the ESLint configuration
+*Todo List App* is a clean and responsive React + TypeScript application for managing your daily tasks.  
+It offers a minimal interface, type-safe logic, task filtering, and local state management — all designed with simplicity and scalability in mind.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 🚀 Features
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- ✅ Add and Delete Todos  
+- 🎯 Mark Tasks as Completed  
+- 🔍 Filter Tasks (All / Active / Completed)  
+- 🧼 Clear Completed Tasks  
+- 📱 Fully Responsive Design  
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## 🛠️ Tech Stack
+
+<p align="left">
+  <img src="https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/-React%20Hooks-61DAFB?style=flat&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/-Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white" />
+  <img src="https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white" />
+</p>
+
+---
+
+## 🖥️ Preview
+
+<!-- Add screenshots when available -->
+![Todo App Screenshot](https://github.com/moien2484/todo-list/blob/main/Apex_1746026487346.png?raw=true)
+
+---
+
+## ⚙️ Installation
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/moien2484/todo-list.git
+
+# 2. Navigate into the project folder
+cd todo-list
+
+# 3. Install dependencies
+npm install
+
+# 4. Start development server
+npm start
